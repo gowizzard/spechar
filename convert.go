@@ -15,7 +15,7 @@ import "strings"
 func Convert(text string) string {
 
 	// Create list for special characters
-	list := []string{"!", "\"", "§", "$", "%", "&", "/", "(", ")", "=", "ß", "[", "]", "|", "{", "}", "<", ">"}
+	list := []string{"^", "!", "\"", "§", "$", "%", "&", "/", "(", ")", "=", "ß", "°", "[", "]", "|", "{", "}", "?", "+", "*", "#", "'", "<", ">", ",", ".", "-", ";", ":", "_"}
 
 	// Check each special characters & replace ti with nothing
 	for _, value := range list {
