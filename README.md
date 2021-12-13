@@ -17,6 +17,6 @@ go get github.com/gowizzard/spechar
 Here is a small example how to convert the string:
 
 ```go
-convert := Convert("{Mein Test&!}")
+convert := spechar.Convert("{Mein Test&!}")
 fmt.Println(convert)
 ```
